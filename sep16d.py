@@ -8,4 +8,4 @@ for i in l:
         #c=0
     m.append(n)
     n=[]
-print(m)
+print(c)

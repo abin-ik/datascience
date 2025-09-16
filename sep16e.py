@@ -1,7 +1,6 @@
-l=[[1,2,3],[4,5,6]]
+l=[[1,2,3],[4,5,9]]
 m=[]
 d=[]
-c=[]
 e=[]
 for i in l:
     d=m
@@ -11,9 +10,14 @@ for i in l:
         
 print(m)
 print(d)
-for v in m:
-    for f in d:
-        z=v+f
-        e.append(z)
-        break
-print(x)
+f=0
+for v in range(len(m)):
+    
+    z=m[v]+d[f]
+    e.append(z)
+    v=v+1
+    f=v
+   
+
+
+print(e)
