@@ -7,4 +7,4 @@ for i in l:
             m=i+j
             s.append(m)
             m=0
-print(s)
+print(s) 
