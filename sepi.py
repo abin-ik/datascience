@@ -4,8 +4,8 @@
 # → Compare the two outputs.
 
 import numpy as np
-a = np.array([[1,2,3],[6,7,8]])
-b = np.array([[1,2],[3,4],[5,6]])
+a = np.random.randint(1,10,(2,3))
+b = np.random.randint(1,10,(3,2))
 print(a@b)
 print(b@a)
 
