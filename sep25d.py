@@ -1,5 +1,5 @@
 # 2. Filtering + Mean
-# Given an array:
+# Given an Array:
 #arr = np.array([12, 45, 67, 89, 34, 22, 90, 100])
 # → Select values between 40 and 90 (exclusive)
 # → Calculate their mean
