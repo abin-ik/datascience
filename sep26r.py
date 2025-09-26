@@ -7,4 +7,4 @@
 import numpy as np
 a = np.array([[1, 2], [3, 4], [5, 6], [7, 8]])
 c = a.flatten()
-print(np.split(a,4))
+print(np.split(c,2))
